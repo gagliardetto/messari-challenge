@@ -22,9 +22,9 @@ func main() {
 
 	beginTime := time.Now()
 
-	// fmt.Println("BEGIN")
+	fmt.Println("BEGIN")
 	sendTrades(tradeCount, int(marketCount))
-	// fmt.Println("END")
+	fmt.Println("END")
 
 	// report to the user the statistics for this run
 	fmt.Println(fmt.Sprintf("Trade Count:  %d", tradeCount))
